@@ -27,6 +27,14 @@
     <!-- bootstrap-daterangepicker -->
     <link href="include/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
+    <!-- Datatables -->
+    <link href="include/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="include/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+    <link href="include/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="include/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="include/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+
+
     <!-- Custom Theme Style -->
     <link href="include/css/custom.min.css" rel="stylesheet">
 
@@ -199,3 +207,9 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
+
+
+
+
+
+
