@@ -1,15 +1,17 @@
 
 
 
-
-
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- /page content -->
 
         <!-- footer content -->
         <footer>
-          <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          <div style="position: fixed; font-size: 18px; bottom: 7px;" class="pull-right">
+            This Web Developed By Nayembabu and Jashim Uddin <a href="https://nayembabu.com">Nayembabu</a>
           </div>
           <div class="clearfix"></div>
         </footer>
