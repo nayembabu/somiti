@@ -17,9 +17,10 @@ class Home extends CI_Controller
    /*     $language = $this->db->get('settings')->row()->language;
         $this->lang->load('system_syntax', $language);*/
         $this->load->model('home_model');
+        $this->load->model('settings_model');
 
-        
-/*        if (!$this->ion_auth->logged_in()) {
+        /*
+		if (!$this->ion_auth->logged_in()) {
             redirect('auth/login', 'refresh');
         }*/
 
@@ -27,8 +28,9 @@ class Home extends CI_Controller
 
 	public function index()
 	{
-		$this->load->view('header');
-		$this->load->view('table');
+		$data['sys_set'] = $this->settings_model->getSysInfo();
+		$this->load->view('header', $data);
+		$this->load->view('home');
 		$this->load->view('footer');
 	}
 }

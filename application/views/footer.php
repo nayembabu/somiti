@@ -10,7 +10,7 @@
 
         <!-- footer content -->
         <footer>
-          <div style="position: fixed; font-size: 18px; bottom: 7px;" class="pull-right">
+          <div style="background: #2A3F54; color: #fff; padding: 0 0 10px 100px; left: 15%; margin: 0; font-weight: bold; position: fixed; font-size: 18px; bottom: 0px; width: 100%;" class="pull-right">
             This Web Developed By Nayembabu and Jashim Uddin <a href="https://nayembabu.com">Nayembabu</a>
           </div>
           <div class="clearfix"></div>
@@ -73,6 +73,8 @@
     <script src="include/jszip/dist/jszip.min.js"></script>
     <script src="include/pdfmake/build/pdfmake.min.js"></script>
     <script src="include/pdfmake/build/vfs_fonts.js"></script>
+
+
 
   </body>
 </html>
