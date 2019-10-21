@@ -10,22 +10,15 @@
  * Github Contributor Url 	: https://github.com/jashimgit/
  */
 
-class Settings_model extends CI_model
+class Member_model extends CI_model
 {
-	
 	function __construct()	{
 		Parent::__construct();
 		$this->load->database();
 	}
 
-	function getSysInfo() {
-		$sql = $this->db->get('settings');
-		return $sql->row();
-	}
-
-	function getuserinfo($log_id) {
-		$this->db->where('mbr_iid', $log_id);
+	function getAllMember() {
 		$sql = $this->db->get('member_info');
-		return $sql->row();
+		return $sql->result();
 	}
 }
