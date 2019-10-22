@@ -21,4 +21,25 @@ class Member_model extends CI_model
 		$sql = $this->db->get('member_info');
 		return $sql->result();
 	}
+
+	function insert_new_member($data) {
+		$this->db->insert('member_info', $data);
+	}
+
+	function get_dist_byDiv($div_id) {
+		$this->db->where('division_id', $div_id);
+		$sql = $this->db->get('districts');
+		return $sql->result();
+	}
+
+	function get_upazilla_byDist($dist_id) {
+		$this->db->where('district_id', $dist_id);
+		$sql = $this->db->get('upazilas');
+		return $sql->result();
+	}
+
+	function delete_m($id) {
+		$this->db->where('mbr_iid', $id);
+		$this->db->delete('member_info');
+	}
 }

@@ -28,4 +28,9 @@ class Settings_model extends CI_model
 		$sql = $this->db->get('member_info');
 		return $sql->row();
 	}
+
+	function getDiv() {
+		$sql = $this->db->get('divisions');
+		return $sql->result();
+	}
 }

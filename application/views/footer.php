@@ -19,6 +19,25 @@
       </div>
     </div>
 
+
+
+
+
+    <!-- bootstrap-daterangepicker -->
+    <script src="include/moment/min/moment.min.js"></script>
+    <script src="include/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- bootstrap-datetimepicker -->    
+    <script src="include/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Ion.RangeSlider -->
+    <script src="include/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
+    <!-- Bootstrap Colorpicker -->
+    <script src="include/mjolnic-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+    <!-- jquery.inputmask -->
+    <script src="include/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+    <!-- jQuery Knob -->
+    <script src="include/jquery-knob/dist/jquery.knob.min.js"></script>
+
     <!-- Bootstrap -->
     <script src="include/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
@@ -76,5 +95,46 @@
 
 
 
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $('.dtpick').datetimepicker({
+        format: 'DD-MM-YYYY'
+    });            
+</script>
+
+
+
+
+
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -27,6 +27,17 @@
     <!-- bootstrap-daterangepicker -->
     <link href="include/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
+    <!-- bootstrap-datetimepicker -->
+    <link href="include/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <!-- Ion.RangeSlider -->
+    <link href="include/normalize-css/normalize.css" rel="stylesheet">
+    <link href="include/ion.rangeSlider/css/ion.rangeSlider.css" rel="stylesheet">
+    <link href="include/ion.rangeSlider/css/ion.rangeSlider.skinFlat.css" rel="stylesheet">
+    <!-- Bootstrap Colorpicker -->
+    <link href="include/mjolnic-bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+
+    <link href="include/cropper/dist/cropper.min.css" rel="stylesheet">
+
     <!-- Datatables -->
     <link href="include/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
     <link href="include/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
