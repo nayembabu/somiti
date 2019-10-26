@@ -7,9 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="<?php echo $sys_set->sys_logo; ?>" type="image/ico" />
+	<link rel="icon" href="" type="image/ico" />
 
-    <title><?php echo $sys_set->sys_title; ?></title>
+    <title>title</title>
 
     <!-- Bootstrap -->
     <link href="include/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -76,6 +76,8 @@
             </div>
             <!-- /menu profile quick info -->
 
+
+
             <br />
 
             <!-- sidebar menu -->
@@ -87,6 +89,8 @@
                   </li>
                   <li><a href="member" ><i class="fa fa-user"></i> Member </a>
                   </li>
+					<li><a href="nominee" ><i class="fa fa-bitcoin"></i> Nominee </a>
+					</li>
                 </ul>
               </div>
 

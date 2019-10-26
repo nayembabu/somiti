@@ -1,6 +1,3 @@
-Nominee frontent form
-db column name
----------------------------------------
 n_iid
 n_name
 n_father

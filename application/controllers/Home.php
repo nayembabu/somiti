@@ -9,6 +9,7 @@
  * Github Contributor		: Jashim Uddin
  * Github Contributor Url 	: https://github.com/jashimgit/
  */
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class Home extends CI_Controller
 {

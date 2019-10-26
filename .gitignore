@@ -2,7 +2,8 @@
 
 application/cache/*
 !application/cache/index.html
-
+application/config
+.idea
 application/logs/*
 !application/logs/index.html
 
